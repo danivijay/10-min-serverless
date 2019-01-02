@@ -1,0 +1,24 @@
+{
+      "name": "10-min-serverless",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+            "start": "netlify-lambda serve functions",
+            "build": "netlify-lambda build functions"
+      },
+      "repository": {
+            "type": "git",
+            "url": "git+https://github.com/danivijay/10-min-serverless.git"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "bugs": {
+            "url": "https://github.com/danivijay/10-min-serverless/issues"
+      },
+      "homepage": "https://github.com/danivijay/10-min-serverless#readme",
+      "devDependencies": {
+            "netlify-lambda": "^1.1.1"
+      }
+}
